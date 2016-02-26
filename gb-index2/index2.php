@@ -155,7 +155,7 @@ $serlzd_cookie_params = get_cookie_params();
   <div class="hero-home" style='margin-top:50px;'>
     <div class="hero-home-overlay"></div>
     <div class="row" style='margin-left:0px'>
-      <div class="large-12 columns" style=''>
+      <div class="col-lg-12" style=''>
         <div class="hero-home-feature medium-6 large-6 columns">
           <h1 style='font-size:30px'>Enabling emerging product brands to enter new markets.</h1>
           <h1 style='font-size:18px'>Easy global trading, without the global hassles.</h1>
@@ -169,8 +169,8 @@ $serlzd_cookie_params = get_cookie_params();
     <div class="shading">
 	<div style="position: absolute; background: none repeat scroll 0% 0% rgb(255, 255, 255); bottom: 0px; width: 100%; qheight: 75px;"></div>
       <div class="row">
-        <div class="large-12 columns">
-          <div class="featured-sellers large-12 medium-12" style='text-align:right'>
+        <div class="col-lg-12">
+          <div class="featured-sellers col-lg-12 medium-12" style='text-align:right'>
 			<a href='pricing'>
             <div class="join-cta-homepage">
 				<?=$lang["JoinNow"]?> <span><?=$lang["start_orange_circle"]?></span>
@@ -247,7 +247,7 @@ $serlzd_cookie_params = get_cookie_params();
   <!--3 circles
   <section id="what-we-provide" class="home-module">
     <div class="row">
-      <div class="large-12 columns">
+      <div class="col-lg-12">
         <h2>A Global Platform</h2>
         <ul>
           <li class="large-4 medium-4 columns">
@@ -283,7 +283,7 @@ $serlzd_cookie_params = get_cookie_params();
   <!--Trending Industries (6 industries, 4 products in each)-->
   <section class="trending-industries home-module">
     <div class="row">
-      <div class="large-12 columns">
+      <div class="col-lg-12">
         <h2><?=$lang["trending_industries"]?></h2>
         <div class="row">
 			<?
@@ -338,7 +338,7 @@ $serlzd_cookie_params = get_cookie_params();
   <!--A marketplace for everyone. [sellers] [buyers]-->
   <section class="marketplace-for-everyone home-module">
     <div class="row">
-      <div class="large-12 columns">
+      <div class="col-lg-12">
         <h2><?=$lang["marketplace4everyone"]?></h2>
         <div class="large-9 large-centered columns">
           <div class="large-5 medium-6 columns">
@@ -367,7 +367,7 @@ $serlzd_cookie_params = get_cookie_params();
   <!--Benefits (6 icons)--->
   <section id="benefits" class="home-module">
     <div class="row">
-      <div class="large-12 columns">
+      <div class="col-lg-12">
         <h2><?=$lang["benefits"]?></h2>
         <ul class="benefits-list small-block-grid-2 medium-block-grid-3 large-block-grid-3">
           <li>
@@ -408,7 +408,7 @@ $serlzd_cookie_params = get_cookie_params();
   <!--Trade Anywhere (diff. screens)-->
   <section id="trade-anywhere" class="home-module">
     <div class="row">
-      <div class="large-12 large-centered columns">
+      <div class="col-lg-12 large-centered columns">
         <h2><?=$lang["Tradeanywhere"]?></h2>
         <img width="800" src="images/img_tradeanywhere_devices.jpg">
       </div>

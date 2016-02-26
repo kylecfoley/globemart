@@ -1783,10 +1783,10 @@ function join_now_section($is_index=0){
 	?>
 	<section id="signup-cta-home" class="home-module">
 	<div class="row">
-		<div class="signup-cta-container large-<?=$col?> large-centered columns">
+		<div class="signup-cta-container col-lg-<?=$col?> lg-centered columns">
 			<h2><?=$phrase?></h2>
 			<div class="row">
-			<div class="small-12 large-5 large-centered columns">
+			<div class="col-sm-12 col-lg-12 lg-centered" style="text-align:center;">
 				<a class="button postfix" href="pricing"><?=$lang["JoinNow"]?></a>
 			</div>
 		</div>

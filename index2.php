@@ -149,19 +149,17 @@ include_once("lang/lang.".get_LG().".php");
 	</div>
 	
 	<!--mobile header spacing fix for slideshow -->
-  <div style="height:50px;" class="show-for-small-only"></div>
+  <div style="height:50px;" class="visible-sm visible-xs"></div>
   	<!-- header spacing fix -->
 
   <div class="hero-home" style='margin-top:50px;'>
     <div class="hero-home-overlay"></div>
     <div class="row" style='margin-left:0px'>
-      <div class="large-12 columns" style=''>
-        <div class="hero-home-feature medium-6 large-6 columns">
+        <div class="hero-home-feature col-sm-3 col-md-3 col-lg-2">
           <h1 style='font-size:30px'>Enabling emerging product brands to enter new markets.</h1>
           <h1 style='font-size:18px'>Easy global trading, without the global hassles.</h1>
           <p><a href="#what-we-provide">See what Globemart can do for you! <img src='images/icon_arrow.png' border=0 width=33></a>
           </p>
-        </div>
       </div>
     </div>
 	
@@ -169,8 +167,8 @@ include_once("lang/lang.".get_LG().".php");
     <div class="shading">
 	<div style="position: absolute; background: none repeat scroll 0% 0% rgb(255, 255, 255); bottom: 0px; width: 100%; qheight: 75px;"></div>
       <div class="row">
-        <div class="large-12 columns">
-          <div class="featured-sellers large-12 medium-12" style='text-align:right'>
+        <div class="col-lg-12">
+          <div class="featured-sellers col-lg-12 col-md-12" style='text-align:right'>
 			<a href='pricing'>
             <div class="join-cta-homepage">
 				<?=$lang["JoinNow"]?> <span><?=$lang["start_orange_circle"]?></span>
@@ -410,10 +408,10 @@ include_once("lang/lang.".get_LG().".php");
   <!--3 circles
   <section id="what-we-provide" class="home-module">
     <div class="row">
-      <div class="large-12 columns">
+      <div class="col-lg-12">
         <h2>A Global Platform</h2>
         <ul>
-          <li class="large-4 medium-4 columns">
+          <li class="col-lg-4 col-md-4 ">
             <a href='tradeware'><div class="icon tradeware"></div></a>
             <div class="content">
               <h3>Share Your<br>Product & Brand</h3>
@@ -421,7 +419,7 @@ include_once("lang/lang.".get_LG().".php");
 			  <a href='tradeware'><img width="50" src="images/icon_arrow_blue.png"></a></div>
             </div>
           </li>
-          <li class="large-4 medium-4 columns">
+          <li class="col-lg-4 col-md-4 ">
             <a href='tradefeed'><div class="icon tradefeed"></div></a>
             <div class="content">
 			   <h3>With Micro-Sellers Around the World</h3>
@@ -430,7 +428,7 @@ include_once("lang/lang.".get_LG().".php");
 
             </div>
           </li>
-          <li class="large-4 medium-4 columns">
+          <li class="col-lg-4 col-md-4 ">
             <a href='marketplace'><div class="icon marketplace"></div></a>
             <div class="content">
 			  <h3>To Reach New Global Markets</h3>
@@ -446,14 +444,14 @@ include_once("lang/lang.".get_LG().".php");
   <!--Trending Industries (6 industries, 4 products in each)-->
   <section class="trending-industries home-module">
     <div class="row">
-      <div class="large-12 columns">
+      <div class="col-lg-12">
         <h2>Trending Industries.</h2>
         <div class="row">
-							<div class="large-4 medium-4 columns">
+							<div class="col-sm-4 col-lg-4 col-md-4 ">
 					<ul class="trending-products-container">
 					  <li>
 						<h3>Child &amp; Infant</h3>
-						<ul class="trending-products small-block-grid-2 medium-block-grid-2 large-block-grid-2" style="margin-top:0px; padding-left:2px">
+						<ul class="trending-products block-grid-sm-2 block-grid-md-2 block-grid-lg-2" style="margin-top:0px; padding-left:2px">
 							<li style="text-align:center; width:48%; height:130px; background-color:#FFF;">
 										<a href="https://globemart.com/product/24841905-Training-Pants">
 										<img src="https://globemart.com/Media/Stores/13/1132493232_training-pnts.jpg" style="width:120px" border="0" title="Training Pants"></a></li><li style="text-align:center; width:48%; height:130px; background-color:#FFF;">
@@ -466,11 +464,11 @@ include_once("lang/lang.".get_LG().".php");
 					  </li>
 					</ul>
 				</div>
-								<div class="large-4 medium-4 columns">
+								<div class="col-sm-4 col-lg-4 col-md-4 ">
 					<ul class="trending-products-container">
 					  <li>
 						<h3>Food &amp; Beverage</h3>
-						<ul class="trending-products small-block-grid-2 medium-block-grid-2 large-block-grid-2" style="margin-top:0px; padding-left:2px">
+						<ul class="trending-products block-grid-sm-2 block-grid-md-2 block-grid-lg-2" style="margin-top:0px; padding-left:2px">
 							<li style="text-align:center; width:48%; height:130px; background-color:#FFF;">
 										<a href="https://globemart.com/product/24841963-Ginger-Ale">
 										<img src="https://globemart.com/Media/Stores/23/164068813_ginger-ale.jpeg" style="width:120px" border="0" title="Ginger Ale"></a></li><li style="text-align:center; width:48%; height:130px; background-color:#FFF;">
@@ -483,11 +481,11 @@ include_once("lang/lang.".get_LG().".php");
 					  </li>
 					</ul>
 				</div>
-								<div class="large-4 medium-4 columns">
+								<div class="col-sm-4 col-lg-4 col-md-4 ">
 					<ul class="trending-products-container">
 					  <li>
 						<h3>Gifts &amp; Crafts</h3>
-						<ul class="trending-products small-block-grid-2 medium-block-grid-2 large-block-grid-2" style="margin-top:0px; padding-left:2px">
+						<ul class="trending-products block-grid-sm-2 block-grid-md-2 block-grid-lg-2" style="margin-top:0px; padding-left:2px">
 							<li style="text-align:center; width:48%; height:130px; background-color:#FFF;">
 										<a href="https://globemart.com/product/24842873-6KU-Bruh-Slap">
 										<img src="https://globemart.com/Media/Stores/196/1444151198_bruh.jpg" style="width:90.0804289544px" border="0" title="6KU Bruh Slap"></a></li><li style="text-align:center; width:48%; height:130px; background-color:#FFF;">
@@ -500,11 +498,11 @@ include_once("lang/lang.".get_LG().".php");
 					  </li>
 					</ul>
 				</div>
-								<div class="large-4 medium-4 columns">
+								<div class="col-sm-4 col-lg-4 col-md-4 ">
 					<ul class="trending-products-container">
 					  <li>
 						<h3>Hardware &amp; Tools</h3>
-						<ul class="trending-products small-block-grid-2 medium-block-grid-2 large-block-grid-2" style="margin-top:0px; padding-left:2px">
+						<ul class="trending-products block-grid-sm-2 block-grid-md-2 block-grid-lg-2" style="margin-top:0px; padding-left:2px">
 							<li style="text-align:center; width:48%; height:130px; background-color:#FFF;">
 										<a href="https://globemart.com/product/24841896-Hard-Body-Oval-Bucket">
 										<img src="https://globemart.com/Media/Stores/14/1290456143_bucket2.jpg" style="width:100px" border="0" title="Hard Body Oval Bucket"></a></li><li style="text-align:center; width:48%; height:130px; background-color:#FFF;">
@@ -517,11 +515,11 @@ include_once("lang/lang.".get_LG().".php");
 					  </li>
 					</ul>
 				</div>
-								<div class="large-4 medium-4 columns">
+								<div class="col-sm-4 col-lg-4 col-md-4 ">
 					<ul class="trending-products-container">
 					  <li>
 						<h3>Household Goods</h3>
-						<ul class="trending-products small-block-grid-2 medium-block-grid-2 large-block-grid-2" style="margin-top:0px; padding-left:2px">
+						<ul class="trending-products block-grid-sm-2 block-grid-md-2 block-grid-lg-2" style="margin-top:0px; padding-left:2px">
 							<li style="text-align:center; width:48%; height:130px; background-color:#FFF;">
 										<a href="https://globemart.com/product/24843088-Large-Precision-Angle-Broom-with-Dustpan">
 										<img src="https://globemart.com/Media/Stores/192/188290908.png" style="width:116.062176166px" border="0" title="Large Precision Angle Broom with Dustpan"></a></li><li style="text-align:center; width:48%; height:130px; background-color:#FFF;">
@@ -534,11 +532,11 @@ include_once("lang/lang.".get_LG().".php");
 					  </li>
 					</ul>
 				</div>
-								<div class="large-4 medium-4 columns">
+								<div class="col-sm-4 col-lg-4 col-md-4 ">
 					<ul class="trending-products-container">
 					  <li>
 						<h3>Jewelry</h3>
-						<ul class="trending-products small-block-grid-2 medium-block-grid-2 large-block-grid-2" style="margin-top:0px; padding-left:2px">
+						<ul class="trending-products block-grid-sm-2 block-grid-md-2 block-grid-lg-2" style="margin-top:0px; padding-left:2px">
 							<li style="text-align:center; width:48%; height:130px; background-color:#FFF;">
 										<a href="https://globemart.com/product/24842059-Initial-B-Charm-Bangle">
 										<img src="https://globemart.com/Media/Stores/70/1873714621_a13eb14bg-2.jpg" style="width:120px" border="0" title="Initial B Charm Bangle"></a></li><li style="text-align:center; width:48%; height:130px; background-color:#FFF;">
@@ -559,10 +557,10 @@ include_once("lang/lang.".get_LG().".php");
   <!--A marketplace for everyone. [sellers] [buyers]-->
   <section class="marketplace-for-everyone home-module">
     <div class="row">
-      <div class="large-12 columns">
+      <div class="col-lg-12">
         <h2><?=$lang["marketplace4everyone"]?></h2>
-        <div class="large-9 large-centered columns">
-          <div class="large-5 medium-6 columns">
+        <div class="col-lg-9 lg-centered clearfix">
+          <div class="col-lg-5 col-md-6 ">
             <h3><?=$lang["Sellers"]?></h3>
             <a href='sellers'><img class="photo" src="images/img_seller.jpg" width="222" height="222" border=0></a>
             <p><?=$lang["seller_index_text"]?></p>
@@ -570,10 +568,10 @@ include_once("lang/lang.".get_LG().".php");
                <a href='sellers'><img src='images/icon_arrow.png' border=0 width=33 align='absmiddle'></a>
             </p>
           </div>
-          <div class="marketplace-for-everyone-spacer hide-for-medium-only large-2 columns">
+          <div class="marketplace-for-everyone-spacer col-lg-2 ">
             <div></div>
           </div>
-          <div class="large-5 medium-6 columns">
+          <div class="col-lg-5 col-md-6 ">
             <h3><?=$lang["Buyers"]?></h3>
             <a href='buyers'><img class="photo" src="images/img_buyer.jpg" width="222" height="222" border=0></a>
             <p><?=$lang["buyer_index_text"]?></p>
@@ -588,9 +586,9 @@ include_once("lang/lang.".get_LG().".php");
   <!--Benefits (6 icons)--->
   <section id="benefits" class="home-module">
     <div class="row">
-      <div class="large-12 columns">
+      <div class="col-lg-12">
         <h2><?=$lang["benefits"]?></h2>
-        <ul class="benefits-list small-block-grid-2 medium-block-grid-3 large-block-grid-3">
+        <ul class="benefits-list block-grid-xs-2 block-grid-sm-2 block-grid-md-3 block-grid-lg-3">
           <li>
             <div class="icon"><img src="images/icon_benefits_1.png">
             </div>
@@ -629,7 +627,7 @@ include_once("lang/lang.".get_LG().".php");
   <!--Trade Anywhere (diff. screens)-->
   <section id="trade-anywhere" class="home-module">
     <div class="row">
-      <div class="large-12 large-centered columns">
+      <div class="col-lg-12 large-centered ">
         <h2><?=$lang["Tradeanywhere"]?></h2>
         <img width="800" src="images/img_tradeanywhere_devices.jpg">
       </div>
