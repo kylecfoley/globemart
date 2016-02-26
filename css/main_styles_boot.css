@@ -1,0 +1,416 @@
+.fa-heart:hover{font-size:16px !important;}
+
+.star_filled{color:#808000}
+.star_blank{color:}
+
+.btn-gray, .btn-gray:hover, .btn-gray:active, .btn-gray:visited{
+	color:#FFF !important;
+	background-color:#777777;
+	outline:none !important;
+}
+.btn-big{
+	cursor:pointer;
+	width:209px;
+	height:52px;
+	line-height:52px;
+	color:#FFF;
+	border-radius:3px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	border:none;
+}
+.btn-green, .btn-green:hover, .btn-greengreen:active{
+	background-color:#00AFC1;
+	color:#FFF;
+}
+
+.btn-greengreen, .btn-greengreen:hover, .btn-greengreen:active{
+	background-color:#37BC9B;
+	color:#FFF !important;
+}
+
+.div_round_myacc input[type='submit']{
+	cursor:pointer;
+	width:107px;
+	height:32px;
+	line-height:28px;
+	color:#FFF;
+	border-radius:3px;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	border:none;
+	background-color:#00AFC1;
+}
+
+/* dashboard */
+.maindiv{	~width:1024px;
+	~width:1160px;	margin:0px auto;}
+#mainbody{
+	width:100%; 
+	min-height:750px; 
+	background-color:#E4F2F5; 
+	clear:both; 
+	margin-top:26px;
+}
+#leftcol{
+	margin:45px 0 0 40px; 
+	float:left; 
+	width:200px; 
+	line-height:18px;
+}
+#rightcol{
+	float:left; 
+	padding-top:50px;
+}
+div.dash_header_wrapper{
+	padding-left:14px;
+}
+span.dash_header{
+	font-size:20px; 
+	color:#00AFC2; 
+	font-weight:bold; 
+	border-bottom:8px solid #00AFC2; 
+	letter-spacing:2px;
+}
+#rightcol_white_bg{
+	background-color:#FFF; 
+	~width:740px; 
+	width:850px; 
+	min-height:600px; 
+	border-top:5px solid #C6E3E7;
+}
+#rightcol_white_bg_margin{
+	margin:40px 20px 0 40px;
+}
+.dash_subheader{	/* Edit Company Profile  */
+	margin:20px 0 15px 30px; 
+}
+.dash_subheader b:first-child{
+	font-size:15px;
+}
+.horiz_line{
+	width:160px; 
+	height:1px; 
+	background-color:#CCDADD; 
+	margin:16px 0 20px 0;
+}
+/* end dashboard */
+
+/* page about/selling */
+.about_textblock{
+	width:317px;
+	border-top:1px solid #DDDDDD;
+	margin:0px 20px;
+	font-size:14px;
+	line-height:20px;
+}
+.about_h2{
+	font-weight:bold;
+	font-size:18px;
+	margin:15px 0 12px 0;
+}
+.about_height_delim{
+	clear:both; 
+	height:30px;
+}
+
+/* label - field */
+td.style1{
+	text-align:right;
+	font-weight:bold;
+}
+div.style1{
+	width:100%;
+}
+table.thin {border-collapse:collapse; border-color: gray;}
+table.thin td { border: 1px solid;  border-color: #D3D3D3; }
+
+/* thin line */
+.hrdiv100 {border-bottom: #666666 solid 1px; width:100%}
+.hrdiv90 {border-bottom: #666666 solid 1px; width:90%}
+.hrdiv80 {border-bottom: #666666 solid 1px; width:80%}
+
+
+/* trade doc (forms) */
+.tradedoc_table td{
+	text-align:left;
+	vertical-align:top;
+	border-color:#000 !important;
+	font-weight:bold;
+	font-size:13px;
+}
+.ilonger{
+	width:310px;
+}
+.tradedoc_table  .ishorter{
+	width:150px;
+}
+
+/* trade doc (forms) enumeration */
+table.tradedoc_enum{
+	border:none;
+}
+table.tradedoc_enum td {
+	text-align:center !important;
+	border-color:#FFF !important;
+	border-right-color:#000 !important;
+}
+table.tradedoc_enum td:last-child {
+	border-color:#FFF !important;
+}
+
+.subtotals{
+	border:none;
+}
+.subtotals td{
+	text-align:left !important;
+}
+.bottom_border{
+	border-bottom:1px solid #000 !important;
+}
+
+/* trade docs (manage screen) */
+.tdoc_name{
+	float:left;
+	font-weight:bold;
+	font-size:16px;
+}
+.tdoc_create{
+	float:left;
+	margin-left:20px;
+	width:100px;
+	height:20px;
+	line-height:20px;
+	background-color:#00AFC1;
+	color:#FFF;
+	text-align:center;
+	font-weight:bold;
+}
+.tdoc_more{
+	float:right;
+	color:#00AFC1;
+	font-weight:bold;
+}
+.tdoc_more:hover{
+	text-decoration:underline;
+}
+.atdoc_create:hover{
+	text-decoration:none;
+}
+.no_underline:hover{
+	text-decoration:none;
+}
+
+.invoice_download{
+	float:left;
+	margin:10px 0 0 12px;
+}
+.invoice_square{
+	width:115px;
+	height:90px;
+	padding-left:4px;
+	background-color:#C6E5EA;
+	~margin-bottom:10px;
+}
+.invoice_num{
+	font-weight:bold;
+}
+.invoice_date{
+	margin-top:15px;
+}
+.invoice_name{
+	margin-top:10px;
+	color:#00AFC1;
+	font-weight:bold;
+}
+.no_docs{
+	height:110px;
+	line-height:110px;
+	font-weight:bold;
+	margin-left:15px;
+}
+.invoice_download .colored{
+	font-weight:bold;
+}
+.invoice_square_links a{
+	width:35px; 
+	display:inline-block; 
+	text-align:center;
+	~border:1px solid red;
+}
+.invoice_download a:first-child:hover{
+	text-decoration:none;
+}
+
+/* trade docs search */
+.srch_key{
+	font-weight:bold;
+	font-size:14px;
+	text-align:right;
+}
+.srch_val{
+	text-align:left;
+}
+.srch_val input{
+	width:160px;
+}
+
+/* blog */
+.date_msg_comments{
+	color:#666;
+}
+.date_msg_comments a{
+	color:#038592;
+}
+.comments_bg{
+	clear:both;
+	background-color:#ECF6F5; 
+	margin-bottom:5px; 
+	padding:3px; 
+	min-height:50px;
+}
+
+/* contact form popup */
+.contactform{
+	position:fixed; 
+	display:none; 
+	top:100px; 
+	padding:10px;
+	max-width:550px; 
+	width:95%;
+	height:350px; 
+	border-radius:5px; 
+	border:1px solid #000; 
+	background-color:#FFF; 
+	z-index:999999;
+	margin:0px auto;
+}
+
+.style2{
+	font-weight:bold;
+	text-align:right;
+}
+.style2L{
+	text-align:left;
+}
+
+.borderless td {
+    border: none !important;
+}
+
+.line_channel_discount{
+	border:1px solid #CCC;
+}
+
+.footer_links a{
+	color:#FFF;
+}
+.footer_links a:hover{
+	text-decoration:underline;
+}
+
+/* buttons next to send in mails (paperclip, trash) */
+.btn_nxt2_send{
+	margin-left:20px; 
+	height:33px; 
+	width:33px;
+
+}
+.fa_nxt2_send{
+	font-size:18px;
+}
+
+.search_block1{
+	width:100%; 
+	min-height:189px; 
+	border-top:1px dotted #000;
+	clear:both; 
+	padding-top:20px; 
+	padding-left:30px;
+}
+.search_block1_bb{
+	border-bottom:1px dotted #000;
+	min-height:199px; 
+	clear:both; 
+}
+
+.fa-info-circle{
+	cursor:default;
+}
+.fa_arrow_discount{
+	cursor:pointer; 
+	float:right; 
+	font-size:16px; 
+	margin-top:5px;
+}
+.fad_inactive{color:#717171;}
+.fad_active{color:green;}
+
+.fa {
+   display: inline-block;
+}
+
+/*toppest strip - logo and icons */
+.icons_inline{
+	~border:1px solid red; 
+	width:40px; 
+	display:inline-block
+}
+
+@media (min-width: 461px) { #logo_signedin{width:120px;} }
+@media (max-width: 460px) { #logo_signedin{width:100px; margin-left:-22px;} }
+@media (max-width: 430px) { #logo_signedin{width:85px;} }
+@media (max-width: 410px) { #logo_signedin{width:60px; margin-left:10px;} }
+
+@media (min-width: 461px) { #logo_signedout{width:120px; } }
+@media (max-width: 460px) { #logo_signedout{width:110px;} }
+@media (max-width: 430px) { #logo_signedout{width:85px;} }
+@media (max-width: 410px) { #logo_signedout{width:80px;} }
+
+/* company page */
+.narrow-results {
+  background: url("../images/img/dropdown.png") no-repeat scroll right 19px #3494d8;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Open Sans";
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.narrow-results > div {
+  background: url("../images/select-btn.png") no-repeat scroll right center transparent;
+  height: 100%;
+  padding-left: 10px;
+}
+
+/* safari fix for dropdowns */
+select.form-control{
+	line-height: 28px !important;
+}
+
+.footer_header{
+	font-size:14px;
+	font-weight:bold;
+}
+
+a.public_comp_url{
+	color:#333; 
+	font-size:30px; 
+	font-weight:bold; 
+	outline:none;
+}
+
+/* magnifying glass as placeholder [Q Search     ] */
+.msearch { position: relative; }
+.msearch input { text-indent: 15px;}
+.msearch .fa-search { 
+	position: absolute;
+	top: 9px;
+	left: 7px;
+	font-size: 14px;
+	color: #969696;
+}
